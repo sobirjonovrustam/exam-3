@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    src:
+    url('../fonts/fredoka-v9-latin-regular.woff2') format('woff2'),
+    url('../fonts/fredoka-v9-latin-regular.woff') format('woff');
+    
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 700;
+    src:
+    url('../fonts/fredoka-v9-latin-700.woff2') format('woff2')
+    url('../fonts/fredoka-v9-latin-700.woff') format('woff');
+}
+
+body {
+    font-family: 'Fredoka', 'Arial', sans-serif;
+}
+
+img {
+    object-fit: contain;
+}
+
+li > div:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px darkorange;
+    justify-content: stretch;
+}
